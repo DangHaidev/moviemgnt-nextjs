@@ -39,8 +39,10 @@ function nav() {
                 >
                     <Image
                         className="rounded-lg max-lg:w-[48px] size-12 lg:size-20"
-                        src="assets/logo1.webp"
+                        src="/assets/logo1.webp"
                         alt="hehe"
+                        width={77}
+                        height={77}
                     />
                     <h1 className="font-comix text-[11px] font-[400] uppercase text-white lg:text-[17px]">
                         Shin404
@@ -49,8 +51,10 @@ function nav() {
 
                 <div className="lg:hidden">
                     <Image
-                        src="assets/align-text-justify-svgrepo-com.svg"
+                        src="/assets/align-text-justify-svgrepo-com.svg"
                         alt="image"
+                        width={40}
+                        height={40}
                         className="size-10"
                     />
                 </div>

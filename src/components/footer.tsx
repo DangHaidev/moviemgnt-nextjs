@@ -11,11 +11,15 @@ const footer = () => {
                         <div>
                             <Link className="flex items-center" href={'/'}>
                                 <Image
-                                    src="assets/logo1.webp"
+                                    src="/assets/logo1.webp"
                                     className="size-20"
                                     alt="logo"
+                                    width={76}
+                                    height={76}
                                 />
-                                <h1>Shin404</h1>
+                                <h1 className="font-comix text-[12px] font-[400] uppercase text-white lg:text-[21px]">
+                                    Shin404
+                                </h1>
                             </Link>
                         </div>
                         <div className="flex flex-wrap min-w-2xs max-w-2xl text-2xl gap-5 mt-10">
