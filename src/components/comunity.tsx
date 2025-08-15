@@ -17,7 +17,11 @@ const comunity = () => {
                         <Ourbtn />
                     </div>
                     <div className="overflow-hidden lg:w-1/2 object-center object-cover rounded-b-4xl lg:rounded-tr-4xl">
-                        <Image src="/assets/fami.webp" alt="family" />
+                        <img
+                            src="/assets/fami.webp"
+                            className="object-cover"
+                            alt="family"
+                        />
                     </div>
                 </div>
             </div>

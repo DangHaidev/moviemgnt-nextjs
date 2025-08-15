@@ -28,7 +28,7 @@ const explore = () => {
                     <div className="flex justify-center relative">
                         <div className="relative mt-[3rem] max-lg:max-w-9/10 max-sm:w-full">
                             {/* Image background */}
-                            <Image
+                            <img
                                 alt="video"
                                 className="relative z-10"
                                 src="/assets/video-bg.webp"

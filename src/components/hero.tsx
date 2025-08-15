@@ -34,13 +34,15 @@ const nav = () => {
                         </div>
                         <div className="relative -right-20 top-20">
                             <Image
-                                src="assets/pc.webp"
+                                src="/assets/pc.webp"
                                 alt="Product screenshot"
                                 className="rounded-lg max-lg:w-[700px] max-sm:w-[600px] lg:rounded-3xl pl-5 scale-110"
+                                fill={true}
                             />
                             <Image
-                                src="assets/mobile.webp"
-                                alt=""
+                                src="/assets/mobile.webp"
+                                alt="123"
+                                fill={true}
                                 className="rounded-lg max-lg:w-[140px] max-sm:w-[100px] max-sm:-bottom-10 max-sm:-left-20  lg:rounded-3xl -bottom-15 -left-33 absolute w-55"
                             />
                         </div>

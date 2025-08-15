@@ -8,7 +8,7 @@ import Scroll from '../components/ScrollToTopButton.tsx';
 
 export default function Home() {
     return (
-        <div>
+        <>
             <Nav />
             <Hero />
             <Explore />
@@ -16,6 +16,6 @@ export default function Home() {
             <About />
             <Footer />
             <Scroll />
-        </div>
+        </>
     );
 }
