@@ -10,7 +10,7 @@ const explore = () => {
                 <div className="p-10 lg:p-50">
                     <div className="max-w-6xl mx-auto">
                         <div className="text-center">
-                            <h1>
+                            <h1 className="text-4xl">
                                 Trải nghiệm đa dạng các thể loại về Shin-chan
                             </h1>
                         </div>
