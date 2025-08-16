@@ -7,7 +7,7 @@ const comunity = () => {
             <div id="community">
                 <div className="flex justify-content justify-center max-lg:flex-col m-8 md:m-20 border-2 rounded-4xl">
                     <div className="flex flex-col items-center justify-center lg:w-1/2 p-5 md:p-10">
-                        <h1 className="text-center">
+                        <h1 className="text-center text-4xl">
                             Tham gia cộng đồng nghiện Shin-chan tại đây!!
                         </h1>
                         <h3 className="text-center mt-4 mb-6 text-2xl text-gray-400">
@@ -16,7 +16,7 @@ const comunity = () => {
                         </h3>
                         <Ourbtn />
                     </div>
-                    <div className="overflow-hidden lg:w-1/2 object-center object-cover rounded-b-4xl lg:rounded-tr-4xl">
+                    <div className="relative overflow-hidden lg:w-1/2 lg:h-auto object-center object-cover max-lg:rounded-b-4xl lg:rounded-tr-4xl lg:rounded-br-4xl">
                         <img
                             src="/assets/fami.webp"
                             className="object-cover"
