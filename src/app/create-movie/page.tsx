@@ -3,12 +3,14 @@
 import { Form, Input, InputNumber, Button, Select, message } from 'antd';
 import type { Movie } from '@/types/Movie';
 import { createMovie } from '@/services/movieApi';
+import { useRouter } from 'next/navigation';
 
 const { TextArea } = Input;
 const { Option } = Select;
 
 const CreateMoviePage = () => {
     const [form] = Form.useForm();
+    const router = useRouter();
 
     const handleFinish = async (values: Movie) => {
         try {
@@ -20,6 +22,7 @@ const CreateMoviePage = () => {
             await createMovie(formattedValues);
             message.success('Movie created successfully!');
             form.resetFields();
+            router.push('/home');
         } catch (error) {
             message.error('Failed to create movie');
             console.error('Error creating movie:', error);
